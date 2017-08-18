@@ -1,0 +1,73 @@
+/**{outline: 1px solid red !important;}*/
+
+* {
+    -webkit-boz-sizing: border-box;
+    -moz-boz-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: content-box;
+}
+body {
+	/*background-image: url("imagens\wallpaper.jpeg");*/
+	background-color: black;
+	max-width: 100%;
+
+}
+
+p {
+	font-size: 15px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+
+}
+
+.banner {
+	max-width: 100%px;
+	
+}
+
+.movie {
+	max-width: 400px;
+	max-height: 225px;
+}
+img	{
+	max-width: 100%;
+
+}
+
+.back {
+	text-align: center;
+	margin: 6px;
+}
+
+.back_top {
+	text-align: center;
+
+}
+.action {
+	text-align: center;
+}
+
+.home_body {
+	color: white
+	/*background-image: url("imagens\wallpaper.jpeg");*/
+	
+}
+
+.big_box {
+	text-align: center;
+	/*margin: 5%;*/
+	color: white
+	/*caixa total do formulario*/
+}
+.form_user {
+	background-color: #690305
+	/*caixa dos campos do formulario*/
+
+}
+.portifolio {
+	background-color: #690305;
+	/*color: black*/
+}
