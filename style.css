@@ -10,7 +10,7 @@ body {
 	/*background-image: url("imagens\wallpaper.jpeg");*/
 	background-color: black;
 	max-width: 100%;
-
+	max-width: 1265px;
 }
 
 p {
@@ -20,21 +20,19 @@ p {
 h1 {
 	color: white;
 	text-align: center;
+}
 
+img	{
+	max-width: 100%;
 }
 
 .banner {
 	max-width: 100%px;
-	
 }
 
 .movie {
 	max-width: 400px;
 	max-height: 225px;
-}
-img	{
-	max-width: 100%;
-
 }
 
 .back {
@@ -44,8 +42,8 @@ img	{
 
 .back_top {
 	text-align: center;
-
 }
+
 .action {
 	text-align: center;
 }
@@ -53,7 +51,6 @@ img	{
 .home_body {
 	color: white
 	/*background-image: url("imagens\wallpaper.jpeg");*/
-	
 }
 
 .big_box {
@@ -62,6 +59,7 @@ img	{
 	color: white
 	/*caixa total do formulario*/
 }
+
 .form_user {
 	background-color: #690305
 	/*caixa dos campos do formulario*/
