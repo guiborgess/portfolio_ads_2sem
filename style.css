@@ -10,7 +10,7 @@ body {
 	/*background-image: url("imagens\wallpaper.jpeg");*/
 	background-color: black;
 	max-width: 100%;
-	max-width: 1265px;
+	/*max-width: 1265px;*/
 }
 
 p {
@@ -22,17 +22,25 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
+
 img	{
 	max-width: 100%;
 }
-
-.banner {
-	max-width: 100%px;
+table {
+	max-width: 100%
 }
 
-.movie {
-	max-width: 400px;
-	max-height: 225px;
+.banner {
+	max-width: 100%;
+}
+
+.box_video {
+	/*max-width: 400px;
+	max-height: 500px;*/
+	
 }
 
 .back {
@@ -46,6 +54,10 @@ img	{
 
 .action {
 	text-align: center;
+}
+
+.action_list {
+	text-align: left;
 }
 
 .home_body {
