@@ -29,9 +29,7 @@ h3 {
 img	{
 	max-width: 100%;
 }
-table {
-	max-width: 100%
-}
+
 
 .banner {
 	max-width: 100%;
@@ -40,7 +38,6 @@ table {
 .box_video {
 	/*max-width: 400px;
 	max-height: 500px;*/
-	
 }
 
 .back {
@@ -54,6 +51,10 @@ table {
 
 .action {
 	text-align: center;
+}
+
+input.botao {
+	width: 70px;
 }
 
 .action_list {
