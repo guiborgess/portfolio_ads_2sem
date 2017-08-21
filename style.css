@@ -55,6 +55,7 @@ img	{
 
 input.botao {
 	width: 70px;
+	text-align: center;
 }
 
 .action_list {
