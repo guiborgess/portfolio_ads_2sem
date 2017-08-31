@@ -1,21 +1,29 @@
 /**{outline: 1px solid red !important;}*/
 
-/** {
+*, *:before, *:after {
     -webkit-boz-sizing: border-box;
     -moz-boz-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: content-box;
-}*/
+}
+
+img, 
+picture,
+video,
+embed {
+	max-width: 100%;
+}
 
 .tudo {
-	width: 1250px;
-	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 body {
 	background-color: black;
 	color: white;
-	/*max-width: 1234px;*/
+	font-size: 62,5%
 }
 
 p {
@@ -26,12 +34,13 @@ h1 {
 	color: white;
 }
 
-img	{
-	max-width: 100%;
+.box_video {
+	width: 100%;
 }
 
 .banner {
 	text-align: center;
+	width: 100%;
 }
 
 .back {
