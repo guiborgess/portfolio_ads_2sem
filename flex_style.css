@@ -1,0 +1,44 @@
+
+/** {outline: 1px solid red !important;} */
+
+* {
+    -webkit-boz-sizing: border-box;
+    -moz-boz-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+body {
+	font-size: 62,5%;
+	background: black;
+	color: white;
+	height: 500px;
+}
+
+img, 
+picture,
+video,
+embed {
+	max-width: 100%;
+}
+
+.tudo {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.caixa {
+	width: 50%;
+	margin: 3px;
+}
+
+#caixa2 {
+	text-align: center;
+}
